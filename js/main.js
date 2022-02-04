@@ -41,6 +41,7 @@ function hasGanado() {
     letrasIntroducidasVisual = [];
     visualUsuario = Array(solucion.length).fill('_');
     console.log(solucion);
+    nuevaLetra.value = "";
     renderVisualUsuario();
 }
 
@@ -75,6 +76,7 @@ nuevaLetra.addEventListener('keydown', (e) => {
             letrasIntroducidasVisual = [];
             visualUsuario = Array(solucion.length).fill('_');
             console.log(solucion);
+            nuevaLetra.value = "";
             renderVisualUsuario();
         }
     }
