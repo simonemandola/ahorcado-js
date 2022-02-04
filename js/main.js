@@ -23,7 +23,7 @@ function checkChar() {
     solucionArray = solucionArray.split('');
 
     solucionArray.forEach((char, i) => {
-        if (char === nuevaLetra.value) {
+        if (char === nuevaLetra.value.toLowerCase()) {
             visualUsuario[i] = char;
         }
     });
